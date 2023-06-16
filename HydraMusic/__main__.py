@@ -64,4 +64,4 @@ async def init():
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("HydraMusic").info("Stopping Hydra Music Bot! GoodBye")
+    LOGGER("HydraMusic").info("Stopping Hydra Amelia Bot! GoodBye")
