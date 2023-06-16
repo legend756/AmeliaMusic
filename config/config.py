@@ -125,7 +125,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @HydraStringBot
-STRING1 = getenv("STRING_SESSION", "BQDD0zY6kXJG31Fxvie0ntE-JbV69l5vC7QJbzBNuQrLCnvALAHK2AnCdtDT_u9X644pyeqH-ak7NSJW6rswaElZBsDd5B7z448sa42EU8GiupC5bB58u7iyJ0a2BppQAAAAAV7IdR8A")
+STRING1 = getenv("STRING_SESSION", ""
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -136,7 +136,7 @@ STRING5 = getenv("STRING_SESSION5", None)
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
 LOG = 2
-LOG_FILE_NAME = "Hydralogs.txt"
+LOG_FILE_NAME = "Amelialogs.txt"
 adminlist = {}
 lyrical = {}
 chatstats = {}
