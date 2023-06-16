@@ -47,6 +47,6 @@ for filename in os.listdir(r"./strings/langs/"):
         languages_present[language_name] = languages[language_name]["name"]
     except:
         print(
-            "There is some issue with the language file inside bot. Please report it to the TeamHydra at @HydraSupport on Telegram"
+            "There is some issue with the language file inside bot. Please report it to the TeamWar at @warbotzSupport on Telegram"
         )
         sys.exit()
