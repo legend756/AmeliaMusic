@@ -8,14 +8,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "16743442"))
-API_HASH = getenv("API_HASH","12bbd720f4097ba7713c5e40a11dfd2a")
+API_ID = int(getenv("API_ID", "7376402"))
+API_HASH = getenv("API_HASH","f3ed41c9c67ccf319f7d26dc25cecc47")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "6118506350:AAGyLfOEkHm_PUY8WDbrdm67nzQX_OU35x0")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://sonu55:sonu55@cluster0.vqztrvk.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://legend966758:vJ9CZ5h7qPuRBxE@cluster0.mtdi8.mongodb.net/legend966758?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -28,13 +28,13 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001802315857"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001463185714"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","Camellia")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","AmeliaMusic")
 
 # Your User ID.
-OWNER_ID = list(map(int, getenv("OWNER_ID", "6198858059").split()))  # Input type must be interger
+OWNER_ID = list(map(int, getenv("OWNER_ID", "2097320259").split()))  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -45,18 +45,18 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Infamous-Hydra/Miko-Music",
+    "",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "")
 
 # GIT TOKEN ( if your edited repo is private)
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", None
+    "SUPPORT_CHANNEL", "https://t.me/TheWarBotZ"
 )  # Example:- https://t.me/HydraXSupport
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", None)  # Example:- https://t.me/HydraXSupport
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/warbotzsupport")  # Example:- https://t.me/HydraXSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
@@ -125,7 +125,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @HydraStringBot
-STRING1 = getenv("STRING_SESSION", "BQDD0zY6kXJG31Fxvie0ntE-JbV69l5vC7QJbzBNuQrLCnvALAHK2AnCdtDT_u9X644pyeqH-ak7NSJW6rswaElZBsDdepBM2zRIdThyv8ewSB04FHNK6eqIeeiw-zeGqzpkpCJfe44iK8_gAZYiI4Dv0OHjHrJHFzYicIhvBaQaDiMgSZoX0a4PtTo66CejMv47tMCXvmHCABH_s9flbMzMLnDv7Y38q2ka3eTX33p5Bt-E7nJONz5B7z44qYLvVeE_6v7LraM4KGcQfMMB8KdUa0Mj1I0Ajtwp2kkP1tnY41ShvRIHGRvjWK8sa42EU8GiupC5bB58u7iyJ0a2BppQAAAAAV7IdR8A")
+STRING1 = getenv("STRING_SESSION", "BQDD0zY6kXJG31Fxvie0ntE-JbV69l5vC7QJbzBNuQrLCnvALAHK2AnCdtDT_u9X644pyeqH-ak7NSJW6rswaElZBsDd5B7z448sa42EU8GiupC5bB58u7iyJ0a2BppQAAAAAV7IdR8A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
